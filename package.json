@@ -1,0 +1,19 @@
+{
+  "name": "ntokozo-kubheka-186-consume-github-api-javascript",
+  "description": "Consume GitHub API for Project 186. For instructions, see: http://syllabus.africacode.net/projects/github-api-consume/part1/",
+  "version": "1.0.0",
+  "main": "src/consume_github_api.js",
+  "scripts": {
+    "start": "node src/consume_github_api.js",
+    "test": "jasmine"
+  },
+  "author": "Ntokozo H. Kubheka",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
